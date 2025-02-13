@@ -346,6 +346,11 @@ void SoftKeyboard::clearChineseCache()
     updateButtonStateOfChineseCharacters();
 }
 
+void SoftKeyboard::updateFocusItem(QObject* item)
+{
+    m_focusitem = item;
+}
+
 void SoftKeyboard::hideKeyboard()
 {
     clearChineseCache();

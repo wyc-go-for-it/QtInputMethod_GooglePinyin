@@ -23,6 +23,7 @@ public:
     ~SoftKeyboard();
 
     void clearChineseCache();
+    void updateFocusItem(QObject* item);
 
 private:
     enum InputMode { zh,
