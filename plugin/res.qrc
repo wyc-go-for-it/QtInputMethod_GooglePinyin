@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/stylesheet.qss</file>
+        <file>res/FontAwesome.otf</file>
+        <file>res/dict/dict_pinyin.dat</file>
+        <file>res/dict/dict_pinyin_user.dat</file>
+    </qresource>
+</RCC>
